@@ -1,0 +1,72 @@
+<%- include('partials/header.ejs'); -%>
+
+<div class="comeback">
+    <div class="inner-btn">
+        <a class="edit-btn" style="width: 175px" href="/">Go to main page</a>
+    </div>
+</div>
+
+<div class="title-search">
+    <form class="search-book" action="/search" method="post">
+        <input type="text" name="searchInput" placeholder="Add new book..." autocomplete="off" autofocus="true" />
+        <button type="submit" name="search-btn"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+            <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
+            </svg></button>
+    </form>
+    <hr style="height: 1px;width:55%; background-color: black; margin-top: 30px;">
+</div>
+
+
+<div class="box">
+    <div class="book">
+        <img src="https://covers.openlibrary.org/b/id/<%= new_book.cover_i %>-L.jpg" alt="">
+        <div style="justify-content: flex-start; gap: 20px" class="right-side">
+            <div class="linked-blocks">
+                <div class="book-heading">
+                    <p><%= new_book.title %> by <%= new_book.author_name[0] %></p>
+                </div>
+            </div>
+            <div class="descript">
+                <p><%= fix_desc(book_info) %></p>
+            </div>
+            <button class="edit-btn" style="width: 40%" onclick="addBook()" type="submit">Add to my library</button>
+        </div>
+    </div>
+</div>
+
+<div id="block">
+    <div class="inner-custom">
+        <form name="inputs" style="width: 100%" action="/search/add" method="post">
+            <div class="input-block">
+                <div class="new_date">
+                    <p>Date of read:</p> 
+                    <input type="date" name="bookDate">
+                </div>
+                <div class="new_rating">
+                    <p>Rating:</p> 
+                    <input type="number" name="bookRating" min="1" max="10">
+                </div>
+                <input type="hidden" name="hiddenTitle" value="<%= new_book.title %>">
+                <input type="hidden" name="hiddenAuthor" value="<%= new_book.author_name %>">
+                <input type="hidden" name="hiddenDesc" value="<%= fix_desc(book_info) %>">
+                <input type="hidden" name="hiddenCover" value="https://covers.openlibrary.org/b/id/<%= new_book.cover_i %>-L.jpg">
+                <div class="input-btn">
+                    <button class="edit-btn" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    function addBook(){
+        document.getElementById("block").style.display = "flex";
+    }
+</script>
+
+
+
+
+
+
+<%- include('partials/footer.ejs'); -%>

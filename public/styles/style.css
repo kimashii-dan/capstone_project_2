@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html{
+    background-color: bisque;
+}
+
+
+body{
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+}
+
+textarea{
+    font-family: "Outfit", sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+p{
+    margin: 0
+}
+
+input, button {
+    font-family: "Outfit", sans-serif;
+}
+
+
+/* main page */
+
+.title-page {
+    font-size: 50px;
+    color:darkblue;
+    font-weight: 600;
+    margin: 20px 0 20px;
+    width: 55%;
+}
+
+.search-book{
+    display: flex;
+    gap: 20px;
+    width: 55%;
+    padding: 10px 0
+}
+
+input[name=searchInput]{
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+}
+
+svg{
+    width: 25px;
+    height: 25px
+}
+
+button[name=search-btn]{
+    border: none;
+    background-color:bisque;
+    border-radius: 5px;
+}
+
+.title-search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    margin: 30px 0
+}
+
+.book{
+    display: flex;
+    width: 55%;
+    gap: 20px
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.date-rating{
+    display: flex;
+    gap: 50px;
+    font-size: large;
+    padding: 15px 0
+    
+}
+
+.book-heading{
+    font-size: 40px;
+    font-weight: 600;
+    color:darkblue;
+}
+
+.descript{
+    font-size: 20px
+}
+
+.note-btn{
+    width: 200px;
+    height: 65px;
+    background-color:white;
+    color: black;
+    font-size: 25px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    line-height: 65px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border: 3px solid black
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+/* view page */
+
+.comeback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px
+}
+
+.inner-btn{
+    display: flex;
+    width: 55%;
+    gap: 20px
+}
+
+.edit-btn{
+    width:110px;
+    height: 55px;
+    font-size: 20px;
+    background-color:darkblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.notes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+    gap: 50px
+}
+
+.p-note{
+    font-style: italic;
+}
+
+.note{
+    font-size: 30px;
+    margin: 10px 0;
+    width: 55%;
+}
+
+
+
+
+/* edit page */
+
+.note-abuse{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    gap: 20px
+}
+
+.abuse-btns{
+    display: flex;
+    gap: 50px
+}
+
+#hidden-note{
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+.update-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+textarea {
+    width: 80%;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: "Outfit", sans-serif;
+}
+
+.edit-btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+a.edit-btn{
+    text-decoration: none;
+    line-height: 55px;
+    text-align: center;
+}
+
+
+
+#block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    display: none;
+}
+
+.inner-custom{
+    display: flex;
+    width: 55%;
+    border-radius: 10px;
+    flex-direction: column; 
+    background-color: white;
+}
+
+form[name=inputs]{
+    padding: 60px 0 100px;
+}
+
+.input-block{
+    display: flex;
+    gap: 110px;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.input-block p{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 0
+}
+
+
+.input-block input{
+    height: 55px;
+    width: 150px;
+    font-size: large;
+}
+
+

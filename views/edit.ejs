@@ -1,0 +1,87 @@
+<%- include('partials/header.ejs'); -%>
+
+
+<div class="box">
+    <div class="book">
+        <img src="<%= book.cover %>" alt="">
+        <div class="right-side">
+    
+            <div class="linked-blocks">
+                <div class="book-heading">
+                    <p><%= book.title %> by <%= book.author %></p>
+                </div>
+            </div>
+    
+            <div class="descript">
+                <p><%= book.description %></p>
+            </div>
+
+            <div class="date-rating">
+                <div class="date">
+                    <p>Date of read:  <%= new Date(book.date_read).toLocaleDateString('en-CA') %></p>
+                </div>
+    
+                <div class="rating">
+                    <p>My rating: <%= book.rating %> / 10</p>
+                </div>
+            </div>
+
+
+            
+            
+        </div>
+    </div>
+</div>
+
+<div class="comeback">
+    <div class="inner-btn">
+        <a class="edit-btn" style="width: 175px" href="/">Go to main page</a>
+    </div>
+</div>
+
+<div class="title-search">
+    <div class="title-page">
+        <p>My notes for this book</p>
+    </div>
+    <hr style="height: 1px;width:55%; background-color: black; margin-top: 30px;">
+</div>
+
+<div class="notes">
+    <div class="note-abuse">
+        <div class="abuse-btns">
+            <button class="edit-btn" onclick="addNote()" type="submit">Add note</button>
+            <a class="edit-btn" href="/book/<%= book.id %>">View all</a>
+        </div>
+        <form id="hidden-note" action="/edit/<%= book.id %>/add" method="post">
+            <textarea name="newNotes"></textarea>
+            <input type="hidden" name="bookId" value="<%= book.id %>"> 
+            <button class="edit-btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <% for (let note of notes) { %>
+        <div class="note">
+            <form class="update-form" action="/edit/<%= book.id %>/update" method="post">
+                <input type="hidden" name="updatedNotesId" value="<%= note.id %>">
+                <input type="hidden" name="bookId" value="<%= book.id %>"> 
+                <textarea  name="updatedNotes"><%= note.note %></textarea>
+                <div class="edit-btns">
+                    <button class="edit-btn" type="submit" name="update-btn" value="update">Update</button>
+                    <button class="edit-btn" type="submit" name="update-btn" value="delete">Delete</button>
+                </div>
+            </form>
+        </div>
+    <% } %>
+</div>
+
+
+<script>
+    function addNote(){
+        document.getElementById("hidden-note").style.display = "flex";
+    }
+</script>
+
+
+
+
+
+<%- include('partials/footer.ejs'); -%>

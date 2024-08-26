@@ -1,0 +1,220 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+  <diagram name="Страница — 1" id="QrU37pm7vkUHMY58r9gZ">
+    <mxGraphModel dx="2726" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-1" value="&lt;h2&gt;OPEN SOURCE LIBRARY&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="320" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-3" value="&lt;h2&gt;BACKEND-SIDE&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-920" y="320" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-4" value="&lt;h2&gt;DATABASE&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="600" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-5" value="&lt;h2&gt;FRONTEND-SIDE&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="40" width="240" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="520" as="sourcePoint" />
+            <mxPoint x="-640" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-400" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-11" value="BOOK COVER RESPONSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-440" y="520" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-560" y="160" as="sourcePoint" />
+            <mxPoint x="-800" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-13" value="INPUT TITLE, RATING REQUEST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;rotation=-30;" parent="1" vertex="1">
+          <mxGeometry x="-790" y="190" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-640" y="400" as="sourcePoint" />
+            <mxPoint x="-160" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-15" value="BOOK DATA REQUEST BY TITLE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-565" y="368" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="440" as="sourcePoint" />
+            <mxPoint x="-640" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-19" value="BOOK DATA RESPONSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-565" y="410" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-640" y="480" as="sourcePoint" />
+            <mxPoint x="-160" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-21" value="BOOK COVER REQUEST BY ISBN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-450" y="478" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-800" y="640" as="sourcePoint" />
+            <mxPoint x="-600" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-23" value="INSERT INTO BOOKS ALL DATA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;rotation=30;" parent="1" vertex="1">
+          <mxGeometry x="-810" y="700" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-720" y="310" as="sourcePoint" />
+            <mxPoint x="-550" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-28" value="EJS: TITLE, AUTHOR, DATE, RATING" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;rotation=-30;" parent="1" vertex="1">
+          <mxGeometry x="-750" y="230" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="40" width="640" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-30" value="&lt;h1&gt;BOOKS I&#39;VE READ&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="100" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-31" value="ADD NEW BOOK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="190" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-32" value="SEARCH" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-33" value="COVER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="278" width="190" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-34" value="TITLE AND AUTHOR" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="278" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-36" value="DATE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="350" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-37" value="DESCRIPTION" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="380" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-38" value="RATING" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="785" y="350" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-40" value="CHECK NOTES" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="500" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-41" value="&quot;LOCALHOST:3000/&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="50" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-54" value="COVER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="600" width="190" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-55" value="TITLE AND AUTHOR" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="600" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-56" value="DATE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="672" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-57" value="DESCRIPTION" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="702" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-58" value="RATING" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="785" y="672" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-59" value="CHECK NOTES" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="822" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-70" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="40" width="640" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-89" value="*BOOK TITLE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="205" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-90" value="SEARCH" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="205" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-91" value="&lt;h1&gt;ANOTHER BOOK I&#39;VE READ&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="120" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-92" value="COVER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="298" width="190" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-93" value="TITLE AND AUTHOR" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="298" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-94" value="DESCRIPTION" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="370" width="270" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-97" value="ADD THIS BOOK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="580" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-98" value="LOCALHOST:3000/NEW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="70" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-100" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="1000" width="640" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-101" value="*BOOK TITLE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1165" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-102" value="SEARCH" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="1165" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-103" value="&lt;h1&gt;EDIT NOTES&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1080" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-104" value="COVER" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1258" width="190" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-105" value="TITLE AND AUTHOR" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1258" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-106" value="DESCRIPTION" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1330" width="270" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-107" value="DATE" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1460" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-108" value="TYPE RATING" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="840" y="1460" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-109" value="MY NOTES FOR THIS BOOK" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1540" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-110" value="LOCALHOST:3000/EDIT/:ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1030" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-111" value="NOTES IN TEXTAREA*" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="1610" width="480" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GPMj4IqnTHS0_m07yQW1-112" value="&lt;h2&gt;THERE ARE INITIALLY SOME DATA IN DATABASE, SO WHEN USER OPEN &quot;/&quot;, IT DISPLAYS INDEX.EJS WITH THIS DATA AND ITS COVER. WHEN USER SEARCHES BOOK IT TAKES DATA FROM INPUT AND GETS ALL DATA FROM REQUEST, WHEN BUTTON IS CLICKED NEW.EJS ARE DISPLAYED WITH ALL DATA&lt;/h2&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1000" width="480" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="HQc-nn4o1unBynW0NOAv-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="80" width="520" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="HQc-nn4o1unBynW0NOAv-15" value="TITLE AND AUTHOR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="130" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQc-nn4o1unBynW0NOAv-16" value="DATE OF READ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="215" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="HQc-nn4o1unBynW0NOAv-17" value="RATING" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="215" width="180" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="HQc-nn4o1unBynW0NOAv-18" value="WRITE NOTES" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="310" width="400" height="540" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

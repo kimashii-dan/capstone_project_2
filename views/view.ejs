@@ -1,0 +1,49 @@
+<%- include('partials/header.ejs'); -%>
+
+<div class="box">
+    <div class="book">
+        <img src="<%= book.cover %>" alt="">
+        <div class="right-side">
+            <div class="linked-blocks">
+                <div class="book-heading">
+                    <p><%= book.title %> by <%= book.author %></p>
+                </div>
+            </div>
+            <div class="descript">
+                <p><%= book.description %></p>
+            </div>
+            <div class="date-rating">
+                <div class="date">
+                    <p>Date of read:  <%= new Date(book.date_read).toLocaleDateString('en-CA') %></p>
+                </div>
+                <div class="rating">
+                    <p>My rating: <%= book.rating %> / 10</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="comeback">
+    <div class="inner-btn">
+        <a class="edit-btn" style="width: 175px" href="/">Go to main page</a>
+        <a class="edit-btn" style="width: 175px" href="/edit/<%= book.id %>">Go to edit page</a>
+    </div>
+</div>
+
+<div class="title-search">
+    <div class="title-page">
+        <p>My notes for this book</p>
+    </div>
+    <hr style="height: 1px;width:55%; background-color: black; margin-top: 30px;">
+</div>
+
+<div class="notes">
+    <% for (let note of notes) { %>
+        <div class="note">
+            <p class="p-note"><%= note.note %></p>
+        </div>
+    <% } %>
+</div>
+
+<%- include('partials/footer.ejs'); -%>
