@@ -37,7 +37,7 @@ input, button {
     margin: 20px 0 20px;
     width: 55%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .search-book{
@@ -269,6 +269,10 @@ form[name=inputs]{
     width: 150px;
     font-size: large;
 }
+
+
+
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -319,6 +323,8 @@ form[name=inputs]{
     display: flex;
     flex-direction: column;
 }
+
+
 
 
 
