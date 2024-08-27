@@ -32,6 +32,27 @@ app.get("/", async (req, res) => {
     }
 });
 
+// Sorting books
+app.get("/sort", async (req, res) => {
+  const btnValue = req.query["sort-btn"];
+  console.log(btnValue)
+  let sortedBooks;
+  try {
+    if (btnValue === "rating") {
+      sortedBooks = await db.query("SELECT * FROM books ORDER BY rating DESC");
+    } else if (btnValue === "recency") {
+      sortedBooks = await db.query("SELECT * FROM books ORDER BY date_read DESC");
+    } else if (btnValue === "title") {
+      sortedBooks = await db.query("SELECT * FROM books ORDER BY title ASC");
+    } else if (btnValue === "default") {
+      sortedBooks = await db.query("SELECT * FROM books ORDER BY id ASC");
+    }
+    res.render("index.ejs", { books: sortedBooks.rows });
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching books" });
+  }
+});
+
 // Render specific book page
 app.get('/book/:id', async (req, res) => {
     const id = req.params.id
