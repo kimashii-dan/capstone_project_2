@@ -3,6 +3,17 @@
 <div class="title-search">
     <div class="title-page">
         <p>Books I've read</p>
+        <div class="dropdown">
+            <button style="border-radius: 0" class="edit-btn">Sort by</button>
+            <form action="/sort" method="get">
+                <div class="dropdown-content">
+                    <a href="/">Default</a>
+                    <button class="edit-btn" type="submit" name="sort-btn" value="rating">Rating</button>
+                    <button class="edit-btn" type="submit" name="sort-btn" value="recency">Recency</button>
+                    <button class="edit-btn" type="submit" name="sort-btn" value="title">Title</button>
+                </div>
+            </form>
+        </div>
     </div>
 
     <form class="search-book" action="/search" method="post">
