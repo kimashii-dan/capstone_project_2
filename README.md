@@ -1,2 +1,5 @@
-I didn't know that EJS is not relevalant anymore, and just blindly had been following course. But the idea of this project is kinda cool though. I think I should later rebuild it with React.
-By the way, course is "Fullstack Web Development" by Angela Yu from Udemy.
+Book notes.
+Search for any book. Add that book. Take notes. Rate book.
+
+I built this project while taking a course "Fullstack web development" by Angela Yu.
+I learned backend development by using Express.js, REST API and PostgreSQL. Also learned template engine called EJS that let you write Javascript code inside HTML.
